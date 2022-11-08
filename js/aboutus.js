@@ -335,19 +335,19 @@ $(document).ready(function () {
   }
 });
 $(function () {
-  var subtext = $(".lib52914935_1 .crumbs").find("span").text();
+  var subtext = $(".lib54630616_2 .crumbs").find("span").text();
   if (subtext != "") {
-    $(".lib52914935_1 .crumbs span").addClass("has");
+    $(".lib54630616_2 .crumbs span").addClass("has");
   }
 });
-$(".lib60069717_3wap1 .all a").click(function () {
-  $(".lib60069717_3wap1 .dec").addClass("cur").siblings().clickClass("cur");
+$(document).ready(function () {
+  $(".news_info_detail .news_pcon").find("img").addClass("spotlight");
 });
-$(".lib60069717_3wap1 .all").click(function () {
-  $(this).addClass("none").siblings().removeClass("none");
-  $(".lib60069717_3wap1 .list2").addClass("cur2").siblings().clickClass("cur2");
+$(document).ready(function () {
+  $(".lib01530112_4news_info_detail .news_pcon")
+    .find("img")
+    .addClass("spotlight");
 });
-jQuery(".lib60069717_3 .dhfz").slide({});
 var lib28477374_13wap1txt = $(
   ".lib28477374_13wap1 .content p span >a:last-child"
 ).text();
